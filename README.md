@@ -16,17 +16,17 @@ Open source!
 2 - Abrir pasta no PROMPT e na IDE
 
 3 - Executar comando no terminal dentro da pasta para criar uma estrutura Ruby:
-
+```
 bundle init 
-
+```
 OBS.: se não executar, verificar se o bundle está instalado -> gem install bundler
 
 4 - Verificar se criou o arquvio chamado Gemfile
 
-5 - No arquvio Gemfile, necessário as gem:
-capybara
-rspec
-selnium-webdriver
-ffi
+5 - No arquivo Gemfile, necessário as gem: capybara | rspec | selenium-webdriver | ffi
 
-6 - 
+6 - Manter as versões atualizadas no arquivo Gemfile e após alterar executar:
+```
+gem install
+```
+7 - 
