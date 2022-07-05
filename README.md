@@ -73,4 +73,4 @@ end
 ```
 - Salvar e rodar o comando rspec para ver se o código está ok
 
-12 - Lembrando que deve estar instalado o chromedriver e estar em algum lugar do PATH
+12 - Lembrando que deve estar instalado o chromedriver e estar em algum lugar do PATH (no meu caso, coloquei dentro da pasta Windowns. Para saber quais pastas são PATH, executar o comando: echo %path%).
