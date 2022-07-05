@@ -71,7 +71,8 @@ Capybara.configure do |config|
   config.default_driver = :selenium_chrome
 end
 ```
-Obs.:se for trabalhar com Firefox -> config.default_driver = :selenium
+Obs.: se for trabalhar com Firefox -> config.default_driver = :selenium (necessário o firefox instalado)
+
 - Salvar e rodar o comando rspec para ver se o código está ok
 
 12 - Lembrando que o chromedriver deve estar instalado e em algum lugar do PATH (ver versão do chromedriver e do seu chrome)!
