@@ -1,4 +1,4 @@
-# Estrutura de projeto para criar automação de teste com Capybara
+# 🎯 Estrutura de projeto para criar automação de teste com Capybara
 
 Capybara é uma gem (https://rubygems.org/) do Ruby (necessário a instalação para utilizar este projeto) usada para testar aplicações Web.
 Utiliza como base o Selenium WebDriver. A gem é mantida pela comunicade Ruby.
@@ -9,7 +9,7 @@ Utiliza como base o Selenium WebDriver. A gem é mantida pela comunicade Ruby.
 
 Open source!
 
-# Como configurar o Capybara:
+## 🛠️ Configurar o projeto
 
 1 - Criar pasta do projeto no diretório C: (se for Windowns, se não em qualquer local)
 
