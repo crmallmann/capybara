@@ -19,7 +19,7 @@ Open source!
 ```
 bundle init 
 ```
-OBS.: se não executar, verificar se o bundle está instalado -> gem install bundler
+*Obs.: se não executar, verificar se o bundle está instalado -> gem install bundler*
 
 4 - Verificar se criou o arquvio chamado Gemfile
 
@@ -35,13 +35,13 @@ bundle install
 ```
 rspec --init
 ```
-OBS.: se executado com sucesso, cria: o arquivo .rspec e pasta spec com o arquivo spec_helper.rb (spec/spec_helper.rb)
+*Obs.: se executado com sucesso, cria: o arquivo .rspec e pasta spec com o arquivo spec_helper.rb (spec/spec_helper.rb)*
 
 9 - Para rodar os testes, usar:
 ```
 rspec
 ```
-OBS.: não irá executar, pois até aqui não criamos nenhum cenário
+*Obs.: não irá executar, pois até aqui não criamos nenhum cenário*
 
 10 - Pronto, você já pode criar seus testes.
 Neste projeto, deixei pronto o arquivo: hello_spec.rb
@@ -71,8 +71,23 @@ Capybara.configure do |config|
   config.default_driver = :selenium_chrome
 end
 ```
-Obs.: se for trabalhar com Firefox -> config.default_driver = :selenium (necessário o firefox instalado)
+*Obs.: se for trabalhar com Firefox -> config.default_driver = :selenium (necessário o firefox instalado)*
 
 - Salvar e rodar o comando rspec para ver se o código está ok
 
 12 - Lembrando que deve estar instalado o chromedriver e estar em algum lugar do PATH (no meu caso, coloquei dentro da pasta Windowns. Para saber quais pastas são PATH, executar o comando: echo %path% -> tanto para Chrome como Firefox).
+
+-----------
+### 🎡 Atualizar o ChromeDriver (Windows)
+1 - Verificar qual versão do ChromeDriver está rodando:
+```
+chromedriver
+```
+*Obs.: a versão do ChromeDriver deve ser compatível com o Chrome instalado*
+
+2 - Verificar em qual pasta está o ChromeDriver:
+```
+where chromedriver
+```
+
+3 - Atualizar o arquivo nas pastas listadas acima
